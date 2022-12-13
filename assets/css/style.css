@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/vecteezybackground-white-hs0821_generated.jpg);
+    background-size: auto;
+    background-color: #f2f3f5;
+}
+
+header {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #202425;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 10px;
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+}
+
+header h1 .caption {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 50px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hover effects courtesy of https://css-tricks.com/css-link-hover-effects/ */
+a {
+  box-shadow: inset 0 0 0 0 #96898b;
+  color: #96898b;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 110px 0 0 0 #692d37;
+  color: white;
+}
+
+a {
+    color: #bbcfdd;
+    text-decoration: none;   
+  }
+  a:hover {
+    color: white;
+  }
+
+.main-image {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/vecteezy_business-people-connect-gear-together-success-cooperation_14033779_862.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.frame-left {
+    height: 300px;
+    width: 39%;
+    padding: 2%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.frame-right {
+    height: 300px;
+    width: 39%;
+    padding: 2%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.frame-box {
+    height: 300px;
+    width: 80%;
+    padding: 30px;
+    display: block;
+}
+
+article {
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #4e4545;
+    border: 24px solid rgb(168, 168, 168);
+    opacity: 0.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form {
+    height: 300px;
+    width: 80%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #4e4545;
+    border: 8px solid rgb(168, 168, 168);
+    opacity: 0.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 3px 3px #000000;
+    float: left;
+}
+
+.title {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    max-width: 70px;
+}
+
+p {
+    font-size: 18px;
+    color: #f5f5f5;
+    float: left;
+}
+
+.fields {    
+    font-size: 20px;
+    color: #f5f5f5;
+    float: left;
+}
+
+.fname {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.lname {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.email {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.address {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.mphone {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.click {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+/* Button design courtesy of Mozilla web docs */
+.click {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.click:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.click:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+footer {
+    padding: 20px 30px 50px;
+    margin-bottom: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}

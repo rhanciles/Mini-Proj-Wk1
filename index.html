@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>BC Project</title>
+    </head>
+
+    <body>
+        <header> 
+            <img class="logo" width="55px" src="./assets/images/Bootcamp design-logo-icon.png" alt="Bootcamp Logo">
+            <h1>Boot<span class="caption">camp</span> <i><small>Project</small></i></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#frame-left">Welcome</a>
+                    </li>
+                    <li>
+                        <a href="#frame-right">AboutUs</a>
+                    </li>
+                    <li>
+                        <a href="#frame-box">TheTeam</a>
+                    </li>
+                    <li>
+                        <a href="#form">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-image" alt="Image of two hands holding gear rings"></div>
+<!-- I tried the figure effect but could't quite get it to work. The text was stuck just below the pictuer instead of sitting on it -->
+            <section class="frame-inline">
+                <article class="frame-left" id="frame-left">
+                    <img src="./assets/images/Home.png" alt="Home icon" class="title" />
+                        <h2>Welcome</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                            </p>
+                </article>
+                <article class="frame-right" id="frame-right">
+                    <img src="./assets/images/Vision.png" alt="Target icon" class="title" />
+                        <h2>Our Vision</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                </article>
+                <article class="frame-box" id="frame-box">
+                    <img src="./assets/images/Team.png" alt="People icon" class="title" />
+                    <h2>Team-Work</h2>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                        </p>
+                </article>
+            </section>
+
+            <section class="form" id="form"> 
+                <img src="./assets/images/Form.png" alt="Clipboard icon" class="title" />           
+                <h2>Contact information</h2>
+<!-- Form layout courtesy of w3schools.com  -->
+                <section class="fields">    
+                    <div class="fname">
+                            <label for="first-name">
+                            <span>First-Name: </span>
+                            <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id="First-Name" name="First-Name" maxlength="50" size="40" /><br>
+                    </div>
+                    <div class="lname">
+                            <label for="last-name">
+                            <span>Last-Name: </span>
+                            <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id="Last-Name" name="Last-Name" maxlength="50" size="40" /><br>
+                    </div>
+                    <div class="email">
+                            <label for="email">
+                            <span>E-mail: </span>
+                            <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="email" id="E-mail" name="E-mail" maxlength="50" size="46" /><br>
+                    </div>
+                    <div class="address">
+                            <label for="address">
+                            <span>Address: </span>
+                            <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id="Address" name="Address" maxlength="50" size="40" /><br>
+                    </div>
+                    <div class="mphone">
+                        <label for="Mobile">
+                        <span>Mobile No: </span>
+                        <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" id="Phone" name="Mobile Number" maxlength="50" size="40" /><br>
+                    </div>
+<!-- Button layout courtesy of Mozilla web docs -->
+                    <div>
+                        <button class="click"
+                        type="button">submit
+                        </button>
+                    </div>                    
+                </section>
+
+            </section>
+            
+        <footer>
+            <h3>Designed by R for the Bootcamp Project</h3>
+            &copy; 2022 All Rights Reserved - Bootcamp.
+        </footer>
+
+    </body>
+
+</html>
